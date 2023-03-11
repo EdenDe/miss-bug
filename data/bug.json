@@ -1,0 +1,100 @@
+[
+  {
+    "_id": "abc12345",
+    "title": "Cannot save a Car",
+    "description": "problem when clicking Save",
+    "severity": 3,
+    "createdAt": 1542107359454,
+    "labels": [
+      "Important",
+      "Backend"
+    ],
+    "owner": {
+      "_id": "23HBc",
+      "fullname": "Eden Dekel"
+    }
+  },
+  {
+    "_id": "3aoWR",
+    "title": "buggie",
+    "severity": 1,
+    "description": "it's a feature",
+    "createdAt": 1678108631899,
+    "labels": [
+      "Backend"
+    ],
+    "owner": {
+      "_id": "23HBc",
+      "fullname": "Eden Dekel"
+    }
+  },
+  {
+    "_id": "Jci4y",
+    "title": "something is not working",
+    "description": "check in chatGBT",
+    "severity": 2,
+    "createdAt": 1678120449179,
+    "labels": [
+      "Frontend"
+    ],
+    "owner": {
+      "_id": "dfg88",
+      "fullname": "Puki Ba"
+    }
+  },
+  {
+    "title": "design is bad",
+    "description": "I'm not a designer",
+    "severity": 3,
+    "_id": "uMAWY",
+    "createdAt": 1678192144255,
+    "labels": [
+      "Frontend"
+    ],
+    "owner": {
+      "_id": "dfg88",
+      "fullname": "Puki Ba"
+    }
+  },
+  {
+    "title": "buggie the bug",
+    "description": "problem when clicking Save",
+    "severity": 2,
+    "labels": [
+      "Backend"
+    ],
+    "_id": "puLYe",
+    "createdAt": 1678286333735,
+    "owner": {
+      "_id": "Qyolw",
+      "fullname": "eden "
+    }
+  },
+  {
+    "title": "buggie the bug",
+    "description": "problem when clicking Save",
+    "severity": 2,
+    "labels": [
+      "Backend"
+    ],
+    "_id": "U3ofj",
+    "createdAt": 1678286417445,
+    "owner": {
+      "_id": "23HBc",
+      "fullname": "Eden Dekel"
+    }
+  },
+  {
+    "title": "burnout",
+    "description": "oof",
+    "severity": 3,
+    "labels": [],
+    "_id": "AmYPt",
+    "createdAt": 1678565183974,
+    "owner": {
+      "_id": "Yjksf",
+      "fullname": "eden derhy",
+      "isAdmin": false
+    }
+  }
+]

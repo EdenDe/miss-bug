@@ -1,0 +1,72 @@
+.bug-filter {
+	flex: 1;
+}
+
+.bug-filter > *:first-child {
+	margin-bottom: 1em;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.bug-filter input[type='search'] {
+	flex: 1;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+.bug-filter input[type='range'] {
+	display: inline-block;
+	margin-left: 10px;
+	flex: 1;
+	background-color: transparent;
+	appearance: none;
+}
+
+.bug-filter input[type='range']::-webkit-slider-runnable-track {
+	height: 0.9vh;
+	background-color: #f2ebeb;
+	border-radius: 5px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background-color: #51d6e0;
+	border: 2px solid #f6f6f6;
+	border-radius: 50%;
+	margin-top: -7px;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+.bug-filter input[type='checkbox'] + label:before {
+	content: '';
+	display: inline-block;
+	width: 0.9em;
+	height: 0.9em;
+	margin-inline-end: 0.2em;
+	line-height: 1;
+	border: 2px solid whitesmoke;
+	border-radius: 0.2em;
+	vertical-align: middle;
+}
+
+input[type='checkbox']:checked + label:before {
+	content: '\2713';
+	text-align: center;
+}
+
+.bug-filter ul li > label {
+	margin-inline-end: 1em;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.bug-filter ul {
+	flex-wrap: wrap;
+	flex: 1;
+}

@@ -1,0 +1,10 @@
+.bug-list {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 20px;
+	justify-content: center;
+	background-color: #c04a82;
+	padding: 10px;
+	border-radius: 5px;
+}

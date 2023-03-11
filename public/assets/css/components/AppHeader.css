@@ -1,0 +1,17 @@
+.app-header {
+	padding: 1em;
+	box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
+	background-color: #c04a82;
+}
+
+.app-header * {
+	color: white;
+}
+
+.app-header .btn-logout {
+	width: 25px;
+}
+
+.app-header a {
+	font-size: 1.2em;
+}

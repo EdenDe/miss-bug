@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font-family: Calibri, sans-serif;
+	font-size: 18px;
+}
+
+button {
+	cursor: pointer;
+	font-size: 0.8em;
+}
+
+a {
+	text-decoration: none;
+	color: #3a7396;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 1em;
+}
+
+p {
+	margin: 0 0 0.5em;
+}
+
+button,
+input,
+textarea,
+select {
+	font-family: inherit;
+}

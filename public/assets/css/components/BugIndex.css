@@ -1,0 +1,24 @@
+.bug-index {
+	gap: 1vh;
+}
+
+.subheader {
+	gap: 20px;
+	flex-wrap: wrap;
+	background-color: #dc8449;
+	border-radius: 5px;
+	padding: 0.8em;
+	min-width: 200px;
+}
+
+.subheader > a {
+	flex-basis: 120px;
+	padding: 0.5em;
+	color: aliceblue;
+}
+
+.page-btns {
+	gap: 1em;
+	font-size: 1.1em;
+	margin-bottom: auto;
+}

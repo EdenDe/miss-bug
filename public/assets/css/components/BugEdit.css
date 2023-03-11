@@ -1,0 +1,56 @@
+.bug-edit {
+	gap: 5px;
+	position: relative;
+	font-size: 1.1em;
+	background-color: #be6db7;
+	color: #222121;
+	border-radius: 5px;
+	text-align: center;
+	padding: 2em 1em;
+	flex: 1;
+
+	max-width: 350px;
+	height: fit-content;
+	border: 2px solid #dc8449;
+	margin: auto;
+}
+
+.bug-edit h1 {
+	font-size: 2em;
+}
+
+.bug-edit form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	margin-block-end: 10px;
+	text-align: start;
+}
+
+.bug-edit label {
+	display: flex;
+	width: 100%;
+	gap: 5px;
+}
+
+.bug-edit label :is(input, textarea) {
+	border-radius: 5px;
+	font-size: 0.7em;
+	padding: 0.5em;
+	width: 50%;
+	border: none;
+	outline: 1px solid grey;
+}
+
+.bug-edit textarea {
+	resize: vertical;
+}
+
+.bug-edit .actions {
+	gap: 5px;
+	align-self: center;
+	margin-block-start: 20px;
+	color: inherit;
+}

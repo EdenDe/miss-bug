@@ -1,0 +1,14 @@
+.bug-details {
+	margin: auto;
+	max-width: 400px;
+	gap: 5px;
+	position: relative;
+	font-size: 1.1em;
+	background-color: whitesmoke;
+	color: #8b8b8b;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	height: fit-content;
+	border: 0.2px solid #d8d8d8;
+}

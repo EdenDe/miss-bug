@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "dfg88",
+    "fullname": "Puki Ba",
+    "username": "puki",
+    "password": "123",
+    "isAdmin": false
+  },
+  {
+    "_id": "xiFE8",
+    "username": "admin",
+    "fullname": "admin",
+    "password": "admin",
+    "isAdmin": true
+  },
+  {
+    "_id": "Yjksf",
+    "username": "eden",
+    "fullname": "eden derhy",
+    "password": "123123",
+    "isAdmin": false
+  }
+]

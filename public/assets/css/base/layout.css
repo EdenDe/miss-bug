@@ -1,0 +1,18 @@
+.main-layout {
+	display: grid;
+	grid-template-columns: minmax(10px, 1fr) minmax(auto, 900px) minmax(10px, 1fr);
+}
+
+.main-layout > * {
+	grid-column: 2;
+}
+
+.full {
+	grid-column: 1 / -1;
+}
+
+.router-view {
+	height: calc(100vh - 9vh);
+	padding: 1em;
+	background-color: #fdd36a;
+}

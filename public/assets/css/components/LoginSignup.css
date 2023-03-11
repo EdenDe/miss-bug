@@ -1,0 +1,36 @@
+.login-signup.screen {
+	background-color: #be6db7;
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+}
+
+.login-signup .modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 400px;
+	width: 100%;
+	padding: 1em;
+
+	z-index: 2;
+}
+
+.login-signup form {
+	display: grid;
+	gap: 0.5em;
+}
+
+.login-signup form input {
+	display: grid;
+	gap: 0.5em;
+	padding: 0.5em;
+	border-radius: 0.3em;
+	color: black;
+}
+
+.login-signup h2 {
+	margin-bottom: 0.2em;
+	color: #fdd36a;
+}
